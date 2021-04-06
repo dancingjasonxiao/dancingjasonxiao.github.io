@@ -10,7 +10,7 @@ export const siteData = {
       "link",
       {
         "rel": "icon",
-        "href": "/logo.png"
+        "href": "/favicon.ico"
       }
     ],
     [
@@ -19,6 +19,11 @@ export const siteData = {
         "name": "viewport",
         "content": "width=device-width,initial-scale=1,user-scalable=no"
       }
+    ],
+    [
+      "script",
+      {},
+      "\n            var _hmt = _hmt || [];\n            (function() {\n            // 引入谷歌,不需要可删除这段\n            var hm = document.createElement(\"script\");\n            hm.src = \"https://www.googletagmanager.com/gtag/js?id=G-NKDP0YRMH6\";\n            var s1 = document.getElementsByTagName(\"script\")[0]; \n            s1.parentNode.insertBefore(hm, s1);\n            })();\n\n            // 谷歌加载,不需要可删除\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n\n            gtag('config', 'G-NKDP0YRMH6');"
     ]
   ],
   "pages": [
@@ -38,7 +43,8 @@ export const siteData = {
       "regularPath": "/docs/css/01.html",
       "relativePath": "docs/css/01.md",
       "key": "v-5f25e5e2",
-      "path": "/docs/css/01.html"
+      "path": "/docs/css/01.html",
+      "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
     {
       "title": "Home",
@@ -53,7 +59,8 @@ export const siteData = {
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-8962d10e",
-      "path": "/"
+      "path": "/",
+      "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
     {
       "title": "position",
@@ -70,7 +77,8 @@ export const siteData = {
       "regularPath": "/docs/css/02.html",
       "relativePath": "docs/css/02.md",
       "key": "v-6d73b402",
-      "path": "/docs/css/02.html"
+      "path": "/docs/css/02.html",
+      "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
     {
       "title": "数据类型",
@@ -87,7 +95,8 @@ export const siteData = {
       "regularPath": "/docs/javascript/js-base/01.html",
       "relativePath": "docs/javascript/js-base/01.md",
       "key": "v-11b5251c",
-      "path": "/docs/javascript/js-base/01.html"
+      "path": "/docs/javascript/js-base/01.html",
+      "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
     {
       "title": "执行上下文/作用域链/闭包",
@@ -104,7 +113,8 @@ export const siteData = {
       "regularPath": "/docs/javascript/js-base/02.html",
       "relativePath": "docs/javascript/js-base/02.md",
       "key": "v-f0ad93cc",
-      "path": "/docs/javascript/js-base/02.html"
+      "path": "/docs/javascript/js-base/02.html",
+      "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
     {
       "frontmatter": {
@@ -228,11 +238,15 @@ export const siteData = {
     "vssueConfig": {
       "platform": "github",
       "owner": "dancingjasonxiao",
-      "repo": "blog",
+      "admins": [
+        "dancingjasonxiao"
+      ],
+      "repo": "dancingjasonxiao.github.io",
       "clientId": "e5804c8629e4cf634859",
-      "clientSecret": "7c9283b4127ae6816300d28911409a0c1295fc61"
+      "clientSecret": "7c9283b4127ae6816300d28911409a0c1295fc61",
+      "autoCreateIssue": true
     },
-    "repo": "https://github.com/dancingjasonxiao/blog",
+    "repo": "https://github.com/dancingjasonxiao",
     "author": "JasonXiao",
     "authorAvatar": "/logo.png",
     "logo": "/logo.png",
