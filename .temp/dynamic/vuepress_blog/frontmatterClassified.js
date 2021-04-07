@@ -8,8 +8,8 @@ export default {
       "scope": "tags",
       "path": "/tag/CSS/",
       "pageKeys": [
-        "v-5f25e5e2",
-        "v-6d73b402"
+        "v-72ecb542",
+        "v-649ee722"
       ]
     },
     "JavaScript": {
@@ -17,8 +17,8 @@ export default {
       "scope": "tags",
       "path": "/tag/JavaScript/",
       "pageKeys": [
-        "v-11b5251c",
-        "v-f0ad93cc"
+        "v-02a0af95",
+        "v-7894c093"
       ]
     }
   },
@@ -28,8 +28,8 @@ export default {
       "scope": "categories",
       "path": "/categories/CSS/",
       "pageKeys": [
-        "v-5f25e5e2",
-        "v-6d73b402"
+        "v-72ecb542",
+        "v-649ee722"
       ]
     },
     "JavaScript": {
@@ -37,8 +37,8 @@ export default {
       "scope": "categories",
       "path": "/categories/JavaScript/",
       "pageKeys": [
-        "v-11b5251c",
-        "v-f0ad93cc"
+        "v-02a0af95",
+        "v-7894c093"
       ]
     }
   },

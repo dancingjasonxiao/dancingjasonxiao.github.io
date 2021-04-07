@@ -28,25 +28,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "权重/优先级",
-      "frontmatter": {
-        "title": "权重/优先级",
-        "date": "2021-02-10T00:00:00.000Z",
-        "sidebar": "auto",
-        "categories": [
-          "CSS"
-        ],
-        "tags": [
-          "CSS"
-        ]
-      },
-      "regularPath": "/docs/css/01.html",
-      "relativePath": "docs/css/01.md",
-      "key": "v-5f25e5e2",
-      "path": "/docs/css/01.html",
-      "lastUpdated": "4/6/2021, 11:47:31 AM"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -58,7 +39,7 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-8962d10e",
+      "key": "v-500534d3",
       "path": "/",
       "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
@@ -76,7 +57,7 @@ export const siteData = {
       },
       "regularPath": "/docs/css/02.html",
       "relativePath": "docs/css/02.md",
-      "key": "v-6d73b402",
+      "key": "v-72ecb542",
       "path": "/docs/css/02.html",
       "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
@@ -94,8 +75,27 @@ export const siteData = {
       },
       "regularPath": "/docs/javascript/js-base/01.html",
       "relativePath": "docs/javascript/js-base/01.md",
-      "key": "v-11b5251c",
+      "key": "v-02a0af95",
       "path": "/docs/javascript/js-base/01.html",
+      "lastUpdated": "4/6/2021, 11:47:31 AM"
+    },
+    {
+      "title": "权重/优先级",
+      "frontmatter": {
+        "title": "权重/优先级",
+        "date": "2021-02-10T00:00:00.000Z",
+        "sidebar": "auto",
+        "categories": [
+          "CSS"
+        ],
+        "tags": [
+          "CSS"
+        ]
+      },
+      "regularPath": "/docs/css/01.html",
+      "relativePath": "docs/css/01.md",
+      "key": "v-649ee722",
+      "path": "/docs/css/01.html",
       "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
     {
@@ -112,7 +112,7 @@ export const siteData = {
       },
       "regularPath": "/docs/javascript/js-base/02.html",
       "relativePath": "docs/javascript/js-base/02.md",
-      "key": "v-f0ad93cc",
+      "key": "v-7894c093",
       "path": "/docs/javascript/js-base/02.html",
       "lastUpdated": "4/6/2021, 11:47:31 AM"
     },
