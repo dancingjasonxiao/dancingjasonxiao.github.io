@@ -58,15 +58,22 @@ module.exports = {
         lastUpdated: "Last Updated",
         /* 如果登录不了GitHub，先打开https://cors-anywhere.herokuapp.com/corsdemo获取临时访问权限（弃坑）
          * TODO https://vssue.js.org/zh/options/#proxy后续配置新的代理
+         * 因cors-anywhere无法代理，暂时没有找到合适的代理工具，弃用vssue。
         */
-        vssueConfig: {
-            platform: 'github',
-            owner: 'dancingjasonxiao',
-            admins: ['dancingjasonxiao'],
-            repo: 'dancingjasonxiao.github.io',
-            clientId: 'e5804c8629e4cf634859',
-            clientSecret: '7c9283b4127ae6816300d28911409a0c1295fc61',
-            autoCreateIssue: true
+        // vssueConfig: {
+        //     platform: 'github',
+        //     owner: 'dancingjasonxiao',
+        //     admins: ['dancingjasonxiao'],
+        //     repo: 'dancingjasonxiao.github.io',
+        //     clientId: 'e5804c8629e4cf634859',
+        //     clientSecret: '7c9283b4127ae6816300d28911409a0c1295fc61',
+        //     autoCreateIssue: true
+        // },
+        // 前往https://console.leancloud.cn/配置
+        valineConfig: {
+            appId: 'rb1CptvovedrxYoLUO45XKXM-gzGzoHsz',
+            appKey: 'LdTWr2Rzd8dm7FIkqy7Y9f7L',
+            visitor: true
         },
         repo: "https://github.com/dancingjasonxiao",
         author: 'JasonXiao',
