@@ -7,6 +7,14 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }],
+        ['link', { rel: 'apple-touch-icon', href: '/logo.png' }],
+        ['link', { rel: 'mask-icon', href: '/logo.png', color: '#3eaf7c' }],
+        ['meta', { name: 'msapplication-TileImage', content: '/logo.png' }],
+        ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
         ['script', {}, `
             var _hmt = _hmt || [];
             (function() {
@@ -31,7 +39,15 @@ module.exports = {
     plugins: [
         '@vuepress-reco/vuepress-plugin-comments',
         '@vuepress/medium-zoom',
-        ['@vuepress/google-analytics', { 'ga': 'G-NKDP0YRMH6' }]
+        ['@vuepress/google-analytics', { 'ga': 'G-NKDP0YRMH6' }],
+        ['@vuepress/pwa', {
+                'serviceWorker': true,
+                'updatePopup': {
+                    message: '发现新内容可用',
+                    buttonText: '刷新'
+                }
+            }
+        ]
     ],
     theme: 'reco',
     themeConfig: {
