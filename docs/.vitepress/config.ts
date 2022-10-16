@@ -1,4 +1,5 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
+import sidebar from './sidebar';
 
 export default defineConfig({
     title: 'JasonXiao',
@@ -36,5 +37,23 @@ export default defineConfig({
     markdown: {
         theme: 'material-palenight',
         lineNumbers: true
+    },
+    themeConfig: {
+        logo: {
+            light: {
+                src: '',
+                alt: 'logo'
+            },
+            dark: {
+                src: '',
+                alt: 'logo'
+            }
+        },
+        nav: [
+            { text: 'css', link: '/css/', activeMatch: '/css/' },
+            { text: 'js', link: '/js/', activeMatch: '/js/' },
+            { text: 'framework', link: '/framework/', activeMatch: '/framework/' }
+        ],
+        sidebar
     }
 })
